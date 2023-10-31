@@ -8,7 +8,7 @@ pipeline {
 
         steps {
 
-          // Get some code from a GitHub repository
+          // Get some code from a GitHub repository.
 
           git branch: 'main', url: 'https://github.com/aaliyah-rda/lbg-vat-calculator.git'
 
